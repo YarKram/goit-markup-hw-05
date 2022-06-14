@@ -175,6 +175,10 @@ body {
 	color: var(--accent-color);
 }
 
+.site-nav .link.current {
+	color: var(--accent-color);
+}
+
 .current::after {
 	content: "";
 	position: absolute;
@@ -407,7 +411,7 @@ body {
 	height: 44px;
 	color: #afb1b8;
 	background-color: transparent;
-	margin-right: 10px;
+	/* margin-right: 10px; */
 	border-radius: 50%;
 }
 
@@ -428,7 +432,7 @@ body {
 	list-style: none;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+
 	padding: 0;
 	margin: 0;
 
@@ -437,7 +441,7 @@ body {
 }
 
 .clients-general {
-	flex-basis: calc(100% / 6 - 30px);
+	flex-basis: calc((100% - 30px * 5) / 6);
 }
 
 .clients-item {
@@ -498,6 +502,10 @@ body {
 
 .footer-center-info > .icon-list > .icon-general > .social-link:hover {
 	background-color: #2196f3;
+}
+
+.icon-general {
+	margin-right: 10px;
 }
 
 .footer-invitation {
@@ -569,6 +577,7 @@ body {
 
 	padding-left: 24px;
 	padding-right: 24px;
+	margin: 0;
 
 	width: 100%;
 	height: 100%;
