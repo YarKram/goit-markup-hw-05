@@ -802,11 +802,6 @@ a:link:focus {
 	border-radius: 4px;
 }
 
-.close-icon {
-	position: absolute;
-	top: 8px;
-	right: 8px;
-}
 .close-wrap {
 	position: absolute;
 	top: 8px;
@@ -814,7 +809,9 @@ a:link:focus {
 	width: 30px;
 	height: 30px;
 
-	border: 1px solid rgba(0, 0, 0, 0.1);
+	background-image: url(../images/close.svg);
+
+	border: none;
 	border-radius: 50%;
 }
 
