@@ -31,7 +31,7 @@
 					</a>
 					<ul class="site-nav list">
 						<li class="item">
-					<a href="./index.html" class="link"> Студия</a>
+							<a href="./index.html" class="link current"> Студия</a>
 						</li>
 						<li class="item">
 							<a href="./portfolio.html" class="link">Портфолио</a>
@@ -137,28 +137,37 @@
 					<div class="activities-thumb">
 						<ul class="activities">
 							<li class="item">
-								<img
-									src="./images/img_1.jpg"
-									alt="Печать на клавиатуре"
-									width="370"
-									height="294"
-								/>
+								<div class="item-thumb">
+									<img
+										src="./images/img_1.jpg"
+										alt="Печать на клавиатуре"
+										width="370"
+										height="294"
+									/>
+									<p class="item-description">Десктопные приложения</p>
+								</div>
 							</li>
 							<li class="item">
-								<img
-									src="./images/img_2.jpg"
-									alt="Ноутбук с телефоном"
-									width="370"
-									height="294"
-								/>
+								<div class="item-thumb">
+									<img
+										src="./images/img_2.jpg"
+										alt="Ноутбук с телефоном"
+										width="370"
+										height="294"
+									/>
+									<p class="item-description">Мобильные приложения</p>
+								</div>
 							</li>
 							<li class="item">
-								<img
-									src="./images/img_3.jpg"
-									alt="Палитра цветов на планшете"
-									width="370"
-									height="294"
-								/>
+								<div class="item-thumb">
+									<img
+										src="./images/img_3.jpg"
+										alt="Палитра цветов на планшете"
+										width="370"
+										height="294"
+									/>
+									<p class="item-description">Дизайнерские решения</p>
+								</div>
 							</li>
 						</ul>
 					</div>
@@ -586,6 +595,16 @@
 				</div>
 			</div>
 		</footer>
-    <script src="./js/modal.js"></script>
+		<!-- Modal window -->
+		<div class="backdrop is-hidden" data-modal>
+			<div class="modal">
+				<div class="close-wrap" data-modal-close>
+					<svg width="11" height="11" class="close-icon">
+						<use href="./images/icons.svg#icon-close"></use>
+					</svg>
+				</div>
+			</div>
+		</div>
+		<script src="./js/modal.js"></script>
 	</body>
 </html>
