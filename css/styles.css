@@ -594,6 +594,10 @@ body {
 	overflow: hidden;
 }
 
+.item-pic-descr p {
+  margin: 0;
+}
+
 .item-link {
 	width: 100%;
 	height: 100%;
