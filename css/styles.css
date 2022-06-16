@@ -595,7 +595,7 @@ body {
 }
 
 .item-pic-descr p {
-  margin: 0;
+	margin: 0;
 }
 
 .item-link {
@@ -814,8 +814,11 @@ a:link:focus {
 	height: 30px;
 
 	background-image: url(../images/close.svg);
+	background-repeat: no-repeat;
+	background-position: center;
 
-	border: none;
+	background-color: var(--accent-color-two);
+	border: 1px solid rgba(0, 0, 0, 0.1);
 	border-radius: 50%;
 }
 
